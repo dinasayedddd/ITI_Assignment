@@ -1,0 +1,24 @@
+div,p,span
+{
+    font-family: 'Lucida Sans';
+}
+div>h1
+{
+    text-align: center;
+background-color: red;
+}
+
+ul{
+    list-style-type: none
+ }
+
+li a 
+{
+    text-decoration: none;
+    color: red;
+    font-size: 17px;
+    /*عايزه اديهه بادنج فعشان ميتحسبش زياده ع العرض كدا اتحسب من ضمن العرض*/
+   box-sizing: border-box;
+    background-color: pink;
+
+}
