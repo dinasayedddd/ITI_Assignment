@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <form action="condition.html">
+      <label for="id">Id</label>
+      <input type="hidden" name="ID" id="id" method="post" />
+      <br />
+      <label for="frist">FristName</label>
+      <input type="text" name="FristName" id="frist" required />
+      <br />
+      <label for="Last">LastName</label>
+      <input type="text" name="LastName" id="Last" required />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required />
+      <br />
+      <label for="pass">Password</label>
+      <input type="password" name="pass" id="pass" required />
+      <br />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+      <br />
+      <label for="Brith">Brith Date</label>
+      <input type="date" name="Brith Date" id="Brith" required />
+      <br />
+      <label for="file">Picture </label>
+      <input type="file" name="Picture " id="file" />
+      <br />
+      <fieldset>
+        <input type="radio" name="Gender " id="famale" value="Famale" />
+        <label for="famale">Famale </label>
+        <br />
+        <input type="radio" name="Gender  " id="male" value="Male" />
+        <label for="male">Male </label>
+      </fieldset>
+
+      <label for="faculty">Choose a Faculty:</label>
+      <select name="Faculty" id="faculty">
+        <optgroup label="Faculty">
+          <option value="fci">FCI</option>
+          <option value="f">FCI</option>
+          <option value="c">FCI</option>
+        </optgroup>
+      </select>
+      <br />
+      <fieldset>
+        <label>Interests :</label><br />
+        <input type="checkbox" id="Programming" />
+        <label for="Programming">Programming </label><br />
+        <input type="checkbox" id="reading" />
+        <label for="interests">reading </label><br />
+        <input type="checkbox" id="swimming" />
+        <label for="swimming">swimming </label>
+      </fieldset>
+      <label for="textarea">Textarea</label>
+      <textarea
+        name="textarea"
+        id="textarea"
+        maxlength="200"
+        minlength="40"
+      ></textarea>
+      <br />
+      <input type="checkbox" id="condition" />
+      <label for="condition "
+        ><a href="condition.html">I agreed to terms and condition </a>
+      </label>
+      <br />
+      <input type="submit" value="send" />
+    
+    </form>
+  </body>
+</html>
